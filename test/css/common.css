@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -56,7 +56,7 @@ table {
   clear: both;
   height: 0;
   visibility: hidden;
-}
+} */
 
 /* common start --------------------------------------------------------------------*/
 html, body {
@@ -65,6 +65,5 @@ html, body {
   font-family: "helvetica neue","helvetica","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
 }
 
-body 
-}
+
 

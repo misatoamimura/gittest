@@ -73,15 +73,60 @@ p,li,a {
   width: 100%;
 }
 
+h1 {
+  font-size: 2.375em;
+  color: #013659;
+  letter-spacing: 0.2em;
+}
+
+p {
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+::selection {
+  background: #013659;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #013659;
+  color: #fff;
+}
+
+#wrapper #mainImage img {
+  width: 100%;
+}
+
+
+/* PC start */
+@media print,screen and (min-width:799px){
+
 /* header */
 
+header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
 header nav.container {
-  height: 90px;
+  height: 55px;
+  background: #fff;
 }
 
 header .sub {
   background: #0075c1;
-  height: 45px;
+  min-height: 30px;
+}
+
+header nav.main p a img {
+  max-height: 55px;
 }
 
 header nav.main ul li a {
@@ -90,10 +135,92 @@ header nav.main ul li a {
 
 header .sub ul li a {
   color: #fff !important;
+  font-size: 0.75em;
+}
+
+header .sub .row ul.col-sm-2 {
+  height: 45px;
 }
 
 /* contents */
-#wrapper #mainImage img {
-  width: 100%;
+
+#mainImage img {
+  margin-top: 85px;
 }
 
+#wrapper section#first {
+  margin-top: 60px;
+  width: 75%;
+}
+
+#wrapper section#first h1 {
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+#wrapper section#first h1 span {
+  font-size: 0.68em;
+  letter-spacing: 0em;
+}
+
+#wrapper section#first p.first_text {
+  margin: 20px 0;
+}
+
+#wrapper section#first .lgImg {
+  margin-bottom: 13px;
+}
+
+#wrapper section#first .lgImg p {
+  float: left;
+  width: 33%;
+  padding-right: 1%;
+}
+
+#wrapper section#first .lgImg p img {
+  width: 100%;
+  height: auto;
+}
+
+#wrapper section#first .enter_button a {
+  display: block;
+  min-height: 45px;
+  height: 33px;
+  padding: 12px;
+}
+
+#wrapper section#first .enter_button a:hover {
+  background: #013659;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  color: #fff;
+}
+
+#wrapper section#first .enter_button p.long_button {
+  border: 1px solid #013659;
+  margin-bottom: 20px;
+}
+
+#wrapper section#first .enter_button p.short_button {
+  width: 48%;
+  float: left;
+  border: 1px solid #013659;
+}
+
+#wrapper section#first .enter_button p:last-child {
+  margin-left: 4%;
+}
+
+}
+
+/* PC end */
+
+/* SP start */
+
+@media screen and (max-width:800px){
+
+  }
+
+/* SP end */

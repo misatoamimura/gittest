@@ -79,9 +79,15 @@ h1 {
   letter-spacing: 0.2em;
 }
 
+h2 {
+  font-size: 2em;
+  color: #013659;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 p {
   line-height: 1.4em;
-  font-size: 1em;
+  font-size: 14px;
 }
 
 a,
@@ -146,50 +152,51 @@ header .sub .row ul.col-sm-2 {
 
 #mainImage img {
   margin-top: 85px;
+  width: 100%;
 }
 
-#wrapper section#first {
+section#first {
   margin-top: 60px;
   width: 75%;
 }
 
-#wrapper section#first h1 {
+section#first h1 {
   font-weight: bold;
   line-height: 1.2em;
 }
 
-#wrapper section#first h1 span {
+section#first h1 span {
   font-size: 0.68em;
   letter-spacing: 0em;
 }
 
-#wrapper section#first p.first_text {
+section#first p.first_text {
   margin: 20px 0;
 }
 
-#wrapper section#first .lgImg {
+section#first .lgImg {
   margin-bottom: 13px;
 }
 
-#wrapper section#first .lgImg p {
+section#first .lgImg p {
   float: left;
   width: 33%;
   padding-right: 1%;
 }
 
-#wrapper section#first .lgImg p img {
+section#first .lgImg p img {
   width: 100%;
   height: auto;
 }
 
-#wrapper section#first .enter_button a {
+section#first .enter_button a {
   display: block;
   min-height: 45px;
   height: 33px;
-  padding: 12px;
+  padding: 14px 0 14px 12px;
 }
 
-#wrapper section#first .enter_button a:hover {
+section#first .enter_button a:hover {
   background: #013659;
   -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -198,19 +205,67 @@ header .sub .row ul.col-sm-2 {
   color: #fff;
 }
 
-#wrapper section#first .enter_button p.long_button {
+section#first .enter_button p.long_button {
   border: 1px solid #013659;
   margin-bottom: 20px;
 }
 
-#wrapper section#first .enter_button p.short_button {
+section#first .enter_button p.short_button {
   width: 48%;
   float: left;
   border: 1px solid #013659;
 }
 
-#wrapper section#first .enter_button p:last-child {
+section#first .enter_button p:last-child {
   margin-left: 4%;
+}
+
+section#second {
+  width: 100%;
+  padding: 30px 0;
+  background: #e9eff4;
+  margin-top: 55px;
+}
+
+section#second h2,
+section#second p.title_caption {
+  text-align: center;
+  line-height: 1.3em;
+}
+
+section#second p.title_caption {
+  padding-bottom: 23px;
+  background: url('../img/h2_border.png')no-repeat center bottom;
+  margin-bottom: 45px;
+}
+
+section#second article {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section#second article a:hover {
+  opacity: 0.5;
+}
+
+section#second article div.col-md-4 {
+  margin-right: 5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 30%;
+}
+
+section#second article div:last-child {
+  margin-right: 0px;
+}
+
+section#second article a img {
+  width: 100%;
+}
+
+section#second article a p.news_text {
+  padding: 10px;
+  background: #fff;
 }
 
 }
